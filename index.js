@@ -19,7 +19,7 @@ function currentLine(line) {
     return `The line is currently empty.`
   } 
   for (var i = 1; i < line.length; i++) {
-    return `The line is currently: ` + i + ". " + 
+    return `The line is currently: ` + i + ". " + line.shift()
   }
     
 }
