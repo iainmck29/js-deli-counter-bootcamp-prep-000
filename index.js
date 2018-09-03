@@ -19,7 +19,7 @@ function currentLine(line) {
     return `The line is currently empty.`;
   } 
   for (var i = 1; i < line.length; i++) {
-    var newArray = ();
+    var newArray = [];
     newArray.push(i + ". " + line.shift());
     
   }
