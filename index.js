@@ -26,5 +26,5 @@ function currentLine(line) {
     
   }
     console.log(`The line is currently:` + newArray);
-    return `The line is currently: ` + newArray;
+    return `The line is currently:` + newArray;
 }
